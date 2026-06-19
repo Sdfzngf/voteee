@@ -12,7 +12,7 @@ import { IItem } from '@/models/item';
 
 const templateItems: IItem[] = [
   {
-    id: 'q1',
+    id: '你对瑞神的评价?',
     type: 'selection',
     title: '你对瑞神的评价?',
     options: ['精彩极了', '还行', '糟糕透了'],
@@ -22,7 +22,7 @@ const templateItems: IItem[] = [
     }
   },
   {
-    id: 'q2',
+    id: '你对祥神的评价?',
     type: 'selection',
     title: '你对祥神的评价?',
     options: ['夯爆了', '一般', '拉完了'],
@@ -32,7 +32,7 @@ const templateItems: IItem[] = [
     }
   },
   {
-    id: 'q3',
+    id: '您今天吃了吗?',
     type: 'selection',
     title: '您今天吃了吗?',
     options: ['吃了', '没有', '不知道'],

@@ -1,8 +1,9 @@
 <template>
   <DataTable :value="products" dataKey="Id" tableStyle="min-width: 50rem">
-    <Column field="Key" header="Key"></Column>
-    <Column field="Value" header="Value"></Column>
-    <Column field="Time" header="Time"></Column>
+    <Column field="Key" header="问题"></Column>
+    <Column field="Value" header="投票选项"></Column>
+    <Column field="Time" header="时间"></Column>
+    <Column field="IP" header="投票者IP"></Column>
   </DataTable>
 </template>
 

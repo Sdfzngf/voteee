@@ -6,7 +6,7 @@
         <FormSelection v-if="item.type === 'selection'" :modelValue="item"></FormSelection>
       </template>
 
-      <Button type="submit" label="Submit" />
+      <Button type="submit" label="提交" />
     </form>
     <Toast />
   </div>
@@ -35,8 +35,8 @@ const onSubmit = handleSubmit(async (values) => {
   resetForm();
   toast.add({
     severity: 'success',
-    summary: 'Success',
-    detail: 'Your vote has been submitted.',
+    summary: '成功',
+    detail: '已提交投票',
     life: 3000
   });
 });

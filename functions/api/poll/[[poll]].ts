@@ -55,4 +55,4 @@ const getGroupByAndCount = (env: Env, pollName: string, field: string) =>
     .all();
 
 const getAll = (env: Env, pollName: string) =>
-  env.SimplePollSystem.prepare(`SELECT Id, Key, Value, Time FROM ${pollName}`).all();
+  env.SimplePollSystem.prepare(`SELECT Id, Key, Value, Time, IP FROM ${pollName}`).all();
