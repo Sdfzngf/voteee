@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div class="card flex justify-content-center">
+  <div class="card flex flex-column justify-content-center align-items-center">
     <template v-for="item in items" :key="item.id">
       <ResultChart v-if="item.result.type === 'chart'" :modelValue="item"></ResultChart>
     </template>
