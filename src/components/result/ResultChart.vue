@@ -47,6 +47,7 @@ const chartOptions: any = {
       forceOverride: true
     },
     legend: {
+      position: 'right',
       labels: {
         color: getComputedStyle(document.documentElement).getPropertyValue('--text-color')
       }
