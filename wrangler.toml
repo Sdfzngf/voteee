@@ -1,4 +1,4 @@
-[[d1_databases]]
+name = "simple-poll-system"[[d1_databases]]
 binding = "SimplePollSystem"
 database_id = "eaa0fe45-3cd3-4c74-8b41-12319a4f8561"
 database_name = "simple-poll-system"
